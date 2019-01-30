@@ -77,7 +77,7 @@ for detailed legal information.
 [npm-url]: https://npmjs.org/package/@verdigris/adonis-compression
 [circleci-image]: https://img.shields.io/circleci/project/github/VerdigrisTech/adonis-compression.svg?style=flat-square
 [circleci-url]: https://circleci.com/gh/VerdigrisTech/adonis-compression
-[license-image]: https://img.shields.io/npm/l/@verdigris/adonis-compression.svg?style=flat-square
+[license-image]: https://img.shields.io/github/license/VerdigrisTech/adonis-compression.svg?style=flat-square
 [codecov-image]: https://img.shields.io/codecov/c/github/VerdigrisTech/adonis-compression.svg?style=flat-square
 [codecov-url]: https://codecov.io/gh/VerdigrisTech/adonis-compression
 [nginx-url]: https://www.nginx.com
