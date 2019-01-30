@@ -8,6 +8,16 @@ const providers = [
 ]
 ```
 
+## Registering middleware
+
+The next thing you should do is register the server middleware inside `start/kernel.js` file.
+
+```javascript
+const serverMiddleware = [
+  'Adonis/Middleware/Compression'
+]
+```
+
 ## Config
 
 The config file `config/compression.js` contains all the configuration. Feel
