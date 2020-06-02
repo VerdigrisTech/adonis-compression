@@ -14,7 +14,11 @@ class Compression {
    */
   async handle({ request, response }, next) {
     const [{ request: req }, { response: res }] = [request, response];
-    this.compression(req, res, next);
+
+    // compression() is not async itself and next() should be managed using asynchronous API.
+    this.compression(req, res, () => {});
+
+    await next();
   }
 }
 
